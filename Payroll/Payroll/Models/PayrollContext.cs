@@ -8,7 +8,7 @@ namespace PayrollProject.Models
     public partial class PayrollContext : DbContext
     {
         public PayrollContext()
-            : base("name=DefaultConnection")
+            : base("name=PayrollContext")
         {
         }
 
