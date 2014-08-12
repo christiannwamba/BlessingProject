@@ -24,12 +24,12 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    @if(Request.IsAuthenticated){
+                   
                     <li>@Html.ActionLink("Employee", "Index", "Employee")</li>
                     <li>@Html.ActionLink("Work", "Index", "Work")</li>
                     <li>@Html.ActionLink("Salary", "Index", "Salary")</li>
                     <li>@Html.ActionLink("WorkLocation", "Index", "WorkLocation")</li>
-                    }
+                    
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
